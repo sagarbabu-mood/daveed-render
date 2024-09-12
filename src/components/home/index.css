@@ -1,0 +1,148 @@
+
+
+.table-columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid rgb(125, 109, 109);
+    background-color: rgb(215, 113, 12);
+    padding:12px;
+    font-family: "Roboto";
+    color:aquamarine;
+
+}
+
+
+
+.city-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:0.001px solid #ce9696;
+    padding:12px;
+}
+.city-info:hover{
+    background-color: rgb(167, 167, 167);
+}
+
+.city-name{
+    font-weight: bold;
+    width:88px;
+}
+.city-country-name{
+    font-style: italic;
+    
+}
+.city-timezone{
+    font-style: italic;
+   
+}
+
+.search-div{
+    text-align: center;
+}
+.search-city{
+    padding:10px;
+    border:1px solid rgb(125, 109, 109);
+    border-radius:5px;
+    font-family: "Roboto";
+    color:rgb(70, 87, 9);
+    font-size:16px;
+    background-color: rgb(253, 250, 247);
+    width:50%;
+
+}
+.search-input{
+    width:50%;
+    padding:10px;
+    border:1px solid rgb(125, 109, 109);
+    border-radius:5px;
+    font-family: "Roboto";
+    color:rgb(54, 82, 73);
+    font-size:16px;
+    border:0px;
+    outline: none;
+}
+
+.welcome-note{
+    text-align: center;
+    font-size:38px;
+    
+    margin-bottom: 55px;
+    
+    background-image:linear-gradient(to right, rgb(49, 250, 4),rgb(24, 55, 24), rgb(53, 4, 249));
+    background-clip: text;
+  
+    color:transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+}
+
+.bg-all{
+    background-image:linear-gradient(to bottom, rgb(224, 235, 221), rgb(141, 133, 170));
+    padding:13px;
+    background-size: cover;
+   
+}
+
+.cities-text{
+    color:#ce9696;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.city-link{
+    list-style-type: none;
+    text-decoration: none;
+    color:#190606;
+}
+
+.loading-spinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:55vh;
+    
+    border-radius:5px;
+    padding:20px;
+
+    
+}
+
+.no-cities-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:55vh;
+
+    border-radius:5px;
+    padding:20px;
+}
+.no-cities-found-image{
+    width:300px;
+    height:300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .search-city{
+        width:80%;
+    }
+    .search-input{
+        width:80%;
+    }
+    .welcome-note{
+        font-size:24px;
+    }
+    .cities-text{
+        font-size:16px;
+    }
+  
+}
